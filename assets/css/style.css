@@ -1,0 +1,208 @@
+@font-face {
+    font-family: SantioBold;
+    src: url(../font/santio/Santio\ Bold.woff);
+}
+
+@font-face {
+    font-family: Roboto;
+    src: url(../font/Roboto/Roboto-Regular.ttf);
+}
+
+@font-face {
+    font-family: Tangerine;
+    src: url(../font/Tangerine/Tangerine-Regular.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #fff;
+}
+
+body {
+    background: linear-gradient(0deg, rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)),
+        url(../img/cleo-topper.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+header {
+    margin-top: 1%;
+    padding-left: 79%;
+}
+
+header img {
+    height: 25px;
+    width: 25px;
+    margin-right: 8%;
+}
+
+header a {
+    border-bottom: 2px solid #e7bc0e;
+    font-family: roboto;
+    font-size: 1.4rem;
+}
+
+
+/* ----- general ----- */
+a {
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+p {
+    font-family: SantioBold;
+}
+
+h1 {
+    font-size: 1.5rem;
+}
+
+h2 {
+    font-size: 12rem;
+}
+
+h3 {
+    font-size: 3.2rem;
+}
+
+#introduction p,
+#insurance p {
+    font-size: 2.5rem;
+    line-height: 60px;
+    word-spacing: 2px;
+}
+
+Span {
+    background-color: #000;
+}
+
+.svg {
+    height: 150px;
+    width: 150px;
+    margin-bottom: 50px;
+}
+
+
+/* ---------- section 1 ---------- */
+section:nth-of-type(1) article {
+    padding: 14%;
+}
+
+
+/* ----- hero ----- */
+#hero h1 {
+    font-size: 5rem;
+    margin: 13% 0% 0% 0%;
+    width: 67%;
+}
+
+#hero p {
+    font-family: tangerine;
+    font-size: 3.5rem;
+    color: #e7bc0e;
+    margin-top: 15%;
+}
+
+
+/* ----- introduction ----- */
+#introduction {
+    /* height: 100vh; */
+    padding: 20%;
+    width: 80%;
+}
+
+#introduction p {
+    color: #6bc1a3;
+}
+
+
+/* ----- workers ----- */
+#workers h2,
+h3 {
+    color: #e7bc0e;
+}
+
+
+/* ----- paid ----- */
+#paid h3 {
+    margin-bottom: 2%;
+}
+
+#paid h2,
+h3 {
+    color: #cb91b6;
+}
+
+
+/* ----- insurance ----- */
+#insurance {
+    height: unset;
+}
+
+#insurance h2,
+h3 {
+    color: #6bc1a3;
+}
+
+#insurance p {
+    color: #7eb8e1;
+    padding: 20% 25%;
+}
+
+/* section 2 */
+section:nth-of-type(2) article:nth-of-type(1) img {
+    background: #efefef;
+    background-image: url(../img/see.png);
+}
+
+#picKids {
+    width: 100%;
+    background-size: cover;
+}
+
+/* footer */
+footer {
+    background-color: #000;
+    padding: 35% 10% 2% 10%;
+    width: auto;
+}
+
+footer p:nth-of-type(2),
+a {
+    font-family: Roboto;
+}
+
+.firstTextOfFooter {
+    font-size: 8.0rem;
+    width: 65%;
+    margin-bottom: 10%;
+}
+
+.btnLinkToDonate {
+    font-size: 2.3rem;
+    padding: 15px 30px;
+    border: 1px solid #fff;
+}
+
+.btnLinkToDonate:hover {
+    box-shadow: 2px 2px 0 #fff;
+}
+
+footer p:nth-of-type(2) {
+    font-size: 1rem;
+    text-align: center;
+    margin-top: 30%;
+}
+
+.linkToFilm {
+    color: #6bc1a3;
+}
+
+.linkToFilm:hover {
+    text-decoration: underline;
+}
